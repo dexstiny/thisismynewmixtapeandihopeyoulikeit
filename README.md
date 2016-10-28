@@ -1,3 +1,3 @@
-# hello-world
+# thisismynewmixtapeandihopeyoulikeit
 
-Hi, this is just a test.
+So this is just a little website to let my friends download my mixtape. Nothing special here :)
