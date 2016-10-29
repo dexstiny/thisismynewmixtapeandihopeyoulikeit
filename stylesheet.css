@@ -54,3 +54,8 @@ p.dllink:hover{
   width:100%;
   height:auto;
 }
+@media only screen and (min-width:150px) and (max-width:600px){
+  .mainheader{
+    font-size:80%;
+  }
+}
