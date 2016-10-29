@@ -3,79 +3,20 @@
   <header>
     <title>thisismyfirstmixtapeandihopeyoulikeit.com</title>
     <meta name="description" content="Mixtape Download" />
-    <style>
-
-      img.albumcover{
-        display: block;
-        margin: auto;
-        margin-top: 30px;
-        border:0;
-        max-width:450px;
-        max-height:450px;
-        width:50%;
-        height: 50%;
-      }
-/*
-        img.albumcover:hover{
-        max-width:475px;
-        max-height:475px;
-        width:52%;
-        height:52%;
-*/
-      p.header{
-/*        color: white; */
-        font-family: courier;
-        text-align: center;
-        animation-duration: 500ms;
-        animation-name: tgle;
-        animation-iteration-count: infinite;
-      }
-      @keyframes tgle {
-        0% {
-          color:rgb(255,255,255);
-        }
-        49.99% {
-          color:rgb(255,255,255);
-        }
-        50% {
-          color:rgb(255,0,135);
-        }
-        99.99% {
-          color:rgb(255,0,135);
-        }
-        100% {
-          color:rgb(255,255,255);
-        }
-      }
-      p.header:hover{
-        color:rgb(255,0,135);
-      }
-      a{
-        text-decoration: none;
-      }
-      p.dllink{
-        color:white;
-        font-family:courier;
-        text-align:center;
-        margin-top:-2px;
-
-      }
-      p.dllink:hover{
-        color:rgb(255,0,135);
-      }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
   </header>
   <body style="background-color:black;">
-    <p class="header">thisismyfirstmixtapeandihopeyoulikeit.com</p>
-    <div>
-      <a href="#">
-        <img class="albumcover" src="traveller_artwork.png" alt="album cover" />
-        <p class="dllink">
-          DOWNLOAD
-        </p>
-      </a>
+    <div class="body">
+      <p class="header">thisismyfirstmixtapeandihopeyoulikeit.com</p>
+      <div>
+        <a href="#">
+          <img class="albumcover" src="traveller_artwork.png" alt="album cover" />
+          <p class="dllink">
+            DOWNLOAD
+          </p>
+        </a>
+      </div>
     </div>
   </body>
 
