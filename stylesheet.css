@@ -16,6 +16,9 @@ p.dllink{
 p.dllink:hover{
   color:rgb(255,0,135);
 }
+p.dllink:active{
+  color:rgb(50,255,255);
+}
 .body{
   margin:0 auto;
   width:90%;
@@ -66,6 +69,9 @@ p.dllink:hover{
   }
   .content img{
     max-width:95%;
+  }
+  p.dllink{
+    font-size:4vw;
   }
 }
 @media only screen and (min-width:1100px){
