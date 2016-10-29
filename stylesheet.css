@@ -53,15 +53,18 @@ p.dllink:hover{
   float:center;
 }
 .content img{
-  max-width:450px;
+  max-width:40%;
   width:100%;
   height:auto;
 }
-@media only screen and (min-width:150px) and (max-width:600px){
+@media only screen and (min-width:150px) and (max-width:950px){
   .mainheader{
-    font-size:80%;
+    font-size:3.8vw;
   }
   .body{
     max-width:90%;
+  }
+  .content img{
+    max-width:95%;
   }
 }
