@@ -23,9 +23,29 @@
         height:52%;
 */
       p.header{
-        color: white;
+/*        color: white; */
         font-family: courier;
         text-align: center;
+        animation-duration: 500ms;
+        animation-name: tgle;
+        animation-iteration-count: infinite;
+      }
+      @keyframes tgle {
+        0% {
+          color:rgb(255,255,255);
+        }
+        49.99% {
+          color:rgb(255,255,255);
+        }
+        50% {
+          color:rgb(255,0,135);
+        }
+        99.99% {
+          color:rgb(255,0,135);
+        }
+        100% {
+          color:rgb(255,255,255);
+        }
       }
       p.header:hover{
         color:rgb(255,0,135);
